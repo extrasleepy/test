@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script>
+
+        var clicks = 0;
+
+        function testButton() {
+            clicks++;
+            document.getElementById("changeMessage").innerHTML = "You clicked the button " + clicks + " times";
+            console.log(clicks);
+        }
+
+    </script>
+</head>
+
+<body>
+
+    <h1>JavaScript in Action!</h1>
+    <button type="button" onclick="testButton()">Try it</button>
+    <p id="changeMessage"></p>
+
+</body>
+
+</html>
